@@ -30,6 +30,11 @@ $candy-app-theme: mat-light-theme($candy-app-primary, $candy-app-accent, $candy-
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+
+a:visited {
+  color: #fff;
+}
+
 // classes
 
 .spacer {
@@ -40,6 +45,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   padding: 0 14px;
 }
 
+a.page-active {
+  color: #ffff00;
+}
 
 //  IDs
 
