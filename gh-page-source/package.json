@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "predeploy": "npx ng build --prod && cp -R dist/gh-page-source/ ../."
   },
   "private": true,
   "dependencies": {
